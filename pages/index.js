@@ -114,24 +114,22 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
               <Image src={code} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Front-end development
+                Back-end development
               </h3>
               <p className="py-2">
-                My expertise lies in crafting responsive websites that
-                seamlessly adapt to various devices and deliver swift,
-                user-friendly experiences. I employ a range of technologies such
-                as:
+                I specialize in developing robust and scalable back-end
+                solutions that enable seamless data management and processing,
+                all while ensuring the highest standards of security and data
+                integrity with:
               </p>
               <ul className="dark:text-teal-500">
-                <li>-HTML</li>
-                <li>-CSS</li>
-                <li>-Bootstrap</li>
-                <li>-Bulma</li>
-                <li>-Express.js</li>
-                <li>-TailwindCSS</li>
-                <li>-Wordpress</li>
-                <li>-Photoshop</li>
-                <li>-SASS</li>
+                <li>-Node.js</li>
+                <li>-MongoDB</li>
+                <li>-Mongoose</li>
+                <li>-Atlas</li>
+                <li>-Heroku</li>
+                <li>-Render</li>
+                <li>-Git</li>
               </ul>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
@@ -141,26 +139,170 @@ export default function Home() {
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Front-end development
-              </h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
               <p className="py-2">
-                My expertise lies in crafting responsive websites that
-                seamlessly adapt to various devices and deliver swift,
-                user-friendly experiences. I employ a range of technologies such
-                as:
+                Leveraging the expertise in both front-end and back-end
+                technologies I provide end-to-end solutions that empower
+                businesses to establish and maintain a strong online presence.
+                <ul className="dark:text-teal-500">
+                  <li>-Designing and developing responsive websites</li>
+                  <li>-Optimizing back-end functionality</li>
+                  <li>-Deploying and hosting applications</li>
+                  <li>-Content creation</li>
+                  <li></li>
+                </ul>
               </p>
-              <ul className="dark:text-teal-500">
-                <li>-HTML</li>
-                <li>-CSS</li>
-                <li>-Bootstrap</li>
-                <li>-Bulma</li>
-                <li>-Express.js</li>
-                <li>-TailwindCSS</li>
-                <li>-Wordpress</li>
-                <li>-Photoshop</li>
-                <li>-SASS</li>
-              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-center text-4xl py-1 dark:text-teal-600">
+              My Projects
+            </h3>
+          </div>
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://yelpcamp-iyu0.onrender.com/">
+                <Image
+                  src={yelp}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>
+                  Camping grounds database with a complete CRUD functionality,
+                  user authorization, picture upload, reviews, interactive maps,
+                  etc. Bootcamp coursework.
+                </p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-Node.js</li>
+                  <li>-Express</li>
+                  <li>-MongoDB</li>
+                  <li>-Passport</li>
+                  <li>-Cloudinary</li>
+                  <li>-Bootstrap</li>
+                  <li>-Mapbox</li>
+                  <li>-Render</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://takotatrucking.com/">
+                <Image
+                  src={takota}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>
+                  Project created for a logistics company based in Cincinnati,
+                  Ohio.
+                </p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-Wordpress</li>
+                  <li>-Elementor</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://shoppit.me/">
+                <Image
+                  src={shop}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>E-commerce website.</p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-Wordpress</li>
+                  <li>-Elementor</li>
+                  <li>-Woocommerce</li>
+                  <li>-Stripe</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <Image
+                src={web6}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>
+                  Free classifieds website project for a small minority
+                  community based in Greater Cincinnati area. Work in progress.
+                </p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-Node.js</li>
+                  <li>-Express</li>
+                  <li>-MongoDB</li>
+                  <li>-Mongoose</li>
+                  <li>-Cloudinary</li>
+                  <li>-Bootstrap</li>
+                  <li>-Heroku</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="http://dice.shoppit.me/">
+                <Image
+                  src={dice}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>A simple dice rolling game for two players.</p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-JavaScript</li>
+                  <li>-HTML</li>
+                  <li>-CSS</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="http://pingpong.shoppit.me/">
+                <Image
+                  src={pingpong}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>
+                  You guessed it! It helps to keep score in a pingpong game!
+                </p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-JavaScript</li>
+                  <li>-Bulma</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
