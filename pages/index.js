@@ -59,11 +59,11 @@ export default function Home() {
               Developer and designer.
             </h3>
             <p className="text-md py-5 leading-8 text-teal-600 md:text-xl max-w-lg mx-auto">
-              I'm a Web Developer based in Cincinnati, Ohio. I'm passionate
-              about creating intuitive, dynamic UX and interesting web
-              applications. Independent problem-solver with meticulous attention
-              to details. Consistently enthusiastic about engaging in ambitious
-              projects alongside dynamic individuals.
+              I&apos;m a Web Developer based in Cincinnati, Ohio. I&apos;m
+              passionate about creating intuitive, dynamic UX and interesting
+              web applications. Independent problem-solver with meticulous
+              attention to details. Consistently enthusiastic about engaging in
+              ambitious projects alongside dynamic individuals.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3">
