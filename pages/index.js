@@ -275,7 +275,7 @@ export default function Home() {
               </a>
 
               <div className="px-3 py-3 dark:text-teal-600">
-                <p>A simple dice rolling game for two players.</p>
+                <p>A simple desktop dice rolling game for two players.</p>
                 <p className="pt-2">Technologies used:</p>
                 <ul>
                   <li>-JavaScript</li>
