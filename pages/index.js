@@ -15,7 +15,7 @@ import pingpong from "../public/pingpong.png";
 import yelp from "../public/yelp.png";
 import takota from "../public/takota.png";
 import shop from "../public/shop.png";
-import web6 from "../public/web6.png";
+import web6 from "../public/uzsell.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-lg font-burtons dark:text-white md:text-xl">
+            <h1 className="text-lg font-burtons dark:text-white md:text-lg">
               DevelopedByRustam
             </h1>
             <ul className="flex items-center">
@@ -247,7 +247,9 @@ export default function Home() {
               <div className="px-3 py-3 dark:text-teal-600">
                 <p>
                   Free classifieds website project for a small minority
-                  community based in Greater Cincinnati area. Work in progress.
+                  community populating Greater Cincinnati area. The website
+                  enables to upload, delete, update ads with pictures, provides
+                  user authorization and accounts. Work in progress.
                 </p>
                 <p className="pt-2">Technologies used:</p>
                 <ul>
@@ -307,6 +309,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <footer className="shadow-sm text-center">&copy;2023</footer>
     </div>
   );
 }
