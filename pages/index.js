@@ -77,6 +77,9 @@ export default function Home() {
 
             <AiFillYoutube />
           </div>
+          <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mx-auto mt-20 overflow-hidden md:h-96 md:w-96">
+            <Image src={deved} layout="fill" objectFit="cover" />
+          </div>
         </section>
         <section>
           <div className="lg:flex gap-10 dark:text-white">
