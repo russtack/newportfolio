@@ -246,10 +246,11 @@ export default function Home() {
               />
               <div className="px-3 py-3 dark:text-teal-600">
                 <p>
-                  Free classifieds website project for a small minority
-                  community populating Greater Cincinnati area. The website
-                  enables to upload, delete, update ads with pictures, provides
-                  user authorization and accounts. Work in progress.
+                  Work in progress. Free classifieds website project designed
+                  for a small minority community in the Greater Cincinnati area.
+                  The website will allow users to upload, delete, and update ads
+                  with pictures, and will provide user authorization and account
+                  features.
                 </p>
                 <p className="pt-2">Technologies used:</p>
                 <ul>
