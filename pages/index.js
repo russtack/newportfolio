@@ -307,6 +307,28 @@ export default function Home() {
                 </ul>
               </div>
             </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://reactcrudclient.vercel.app/">
+                <Image
+                  src={bookshop}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>Bookshop webapp with complete CRUD functionality.</p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-MySQL</li>
+                  <li>-React</li>
+                  <li>-Node</li>
+                  <li>-Express</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
       </main>
