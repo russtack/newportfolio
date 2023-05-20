@@ -16,6 +16,8 @@ import yelp from "../public/yelp.png";
 import takota from "../public/takota.png";
 import shop from "../public/shop.png";
 import web6 from "../public/uzsell.png";
+import bookshop from "../public/bookshop.png";
+import entryform from "../public/entryform.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -320,6 +322,28 @@ export default function Home() {
 
               <div className="px-3 py-3 dark:text-teal-600">
                 <p>Bookshop webapp with complete CRUD functionality.</p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-MySQL</li>
+                  <li>-React</li>
+                  <li>-Node</li>
+                  <li>-Express</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://vercel-client-six.vercel.app/">
+                <Image
+                  src={entryform}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>Employee entry form.</p>
                 <p className="pt-2">Technologies used:</p>
                 <ul>
                   <li>-MySQL</li>
