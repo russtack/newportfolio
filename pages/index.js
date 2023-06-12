@@ -164,6 +164,61 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://www.uzlist.net/">
+                {" "}
+                <Image
+                  src={web6}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>
+                  Free classifieds website project designed for a small minority
+                  community in the Greater Cincinnati area. The website allows
+                  users to upload, delete, and update ads with pictures, and
+                  will provide user authorization and account features,
+                  additional Stripe payments integrataed.
+                </p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-Node.js</li>
+                  <li>-Express</li>
+                  <li>-MongoDB</li>
+                  <li>-Mongoose</li>
+                  <li>-Cloudinary</li>
+                  <li>-Stripe</li>
+                  <li>-Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://takotatrucking.com/">
+                <Image
+                  src={takota}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>
+                  Project created for a logistics company based in Cincinnati,
+                  Ohio.
+                </p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-Wordpress</li>
+                  <li>-Elementor</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
               <a href="https://yelpcamp-iyu0.onrender.com/">
                 <Image
                   src={yelp}
@@ -193,29 +248,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className="basis-1/3 flex-1 shadow-lg">
-              <a href="https://takotatrucking.com/">
-                <Image
-                  src={takota}
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                />
-              </a>
 
-              <div className="px-3 py-3 dark:text-teal-600">
-                <p>
-                  Project created for a logistics company based in Cincinnati,
-                  Ohio.
-                </p>
-                <p className="pt-2">Technologies used:</p>
-                <ul>
-                  <li>-Wordpress</li>
-                  <li>-Elementor</li>
-                </ul>
-              </div>
-            </div>
             <div className="basis-1/3 flex-1 shadow-lg">
               <a href="https://shoppit.me/">
                 <Image
@@ -238,34 +271,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className="basis-1/3 flex-1 shadow-lg">
-              <Image
-                src={web6}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-              <div className="px-3 py-3 dark:text-teal-600">
-                <p>
-                  Work in progress. Free classifieds website project designed
-                  for a small minority community in the Greater Cincinnati area.
-                  The website will allow users to upload, delete, and update ads
-                  with pictures, and will provide user authorization and account
-                  features.
-                </p>
-                <p className="pt-2">Technologies used:</p>
-                <ul>
-                  <li>-Node.js</li>
-                  <li>-Express</li>
-                  <li>-MongoDB</li>
-                  <li>-Mongoose</li>
-                  <li>-Cloudinary</li>
-                  <li>-Bootstrap</li>
-                  <li>-Heroku</li>
-                </ul>
-              </div>
-            </div>
+
             <div className="basis-1/3 flex-1 shadow-lg">
               <a href="http://dice.shoppit.me/">
                 <Image
