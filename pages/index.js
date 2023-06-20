@@ -6,6 +6,7 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import Image from "next/image";
+import admindash from "../public/admindash.png";
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/wrench1.jpg";
 import design from "../public/front.png";
@@ -105,11 +106,10 @@ export default function Home() {
                 <li>-HTML</li>
                 <li>-CSS</li>
                 <li>-Bootstrap</li>
-                <li>-Bulma</li>
                 <li>-Express.js</li>
                 <li>-TailwindCSS</li>
                 <li>-Wordpress</li>
-                <li>-Photoshop</li>
+                <li>-React</li>
                 <li>-SASS</li>
               </ul>
             </div>
@@ -162,10 +162,30 @@ export default function Home() {
               My Projects
             </h3>
           </div>
+
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://admindash-omega.vercel.app/">
+                <Image
+                  src={admindash}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>Admin dashboard</p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-React</li>
+                  <li>-Sass</li>
+                </ul>
+              </div>
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg">
               <a href="https://www.uzlist.net/">
-                {" "}
                 <Image
                   src={web6}
                   className="rounded-lg object-cover"
@@ -181,7 +201,7 @@ export default function Home() {
                   community in the Greater Cincinnati area. The website allows
                   users to upload, delete, and update ads with pictures, and
                   will provide user authorization and account features,
-                  additional Stripe payments integrataed.
+                  additional Stripe payments integrated.
                 </p>
                 <p className="pt-2">Technologies used:</p>
                 <ul>
