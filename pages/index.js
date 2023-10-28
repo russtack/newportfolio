@@ -19,6 +19,7 @@ import shop from "../public/shop.png";
 import web6 from "../public/uzsell.png";
 import bookshop from "../public/bookshop.png";
 import entryform from "../public/entryform.png";
+import tictac from "../public/tictac.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -376,6 +377,26 @@ export default function Home() {
                   <li>-React</li>
                   <li>-Node</li>
                   <li>-Express</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="basis-1/3 flex-1 shadow-lg">
+              <a href="https://tictactoe-livid-omega.vercel.app/">
+                <Image
+                  src={tictac}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+
+              <div className="px-3 py-3 dark:text-teal-600">
+                <p>Tic-Tac-Toe game</p>
+                <p className="pt-2">Technologies used:</p>
+                <ul>
+                  <li>-React</li>
                 </ul>
               </div>
             </div>
