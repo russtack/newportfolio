@@ -81,18 +81,18 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mx-auto mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" />
+            {/* <Image src={deved} layout="fill" objectFit="cover" /> */}
           </div>
         </section>
         <section>
           <div className="lg:flex gap-10 dark:text-white">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
-              {/* <Image
+              <Image
                 src={design}
                 width={100}
                 height={100}
                 className="mx-auto"
-              /> */}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Front-end development
               </h3>
